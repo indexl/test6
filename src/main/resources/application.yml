@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: web_exam
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/web_exam_db?
+    username: root
+    password: 
